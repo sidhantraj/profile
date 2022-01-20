@@ -1,4 +1,5 @@
 body {
+  color:#40514E;
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
@@ -24,6 +25,12 @@ h3 {
 }
 a{
   color:#11999E;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+a:hover{
+color: #EAF6F6;
 }
 
 .top-container {
@@ -33,7 +40,7 @@ a{
 }
 
 .middle-container {
-margin-top:40px;
+margin:40px auto 60px auto;
 }
 
 .profile{
@@ -100,22 +107,42 @@ margin-top:40px;
   line-height: 2;
 }
 
-  .contact-me-button{
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
   border-radius: 8px;
-  background: linear-gradient(#11cdd4,#11999e);
-  padding: 10px 20px 10px 20px;
-  border-style: none;
-  color:white;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
   font-size: 20px;
-  margin:20px auto 80px auto;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
 }
 
 .footer-link{
-  padding: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
   color:#11999E;
 }
 
 .copyright{
   margin:0;
   padding:20px;
+  font-size: 0.85rem;
+  font-family: 'Montserrat', sans-serif;
 }
